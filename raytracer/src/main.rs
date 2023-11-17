@@ -90,6 +90,6 @@ fn main() {
         bar.inc(1);
     }
 
-    result.save("output/test.png").unwrap();
+    result.save("../output/test.png").unwrap();
     bar.finish();
 }

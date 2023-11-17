@@ -2,14 +2,14 @@
 name = "raytracer"
 version = "0.1.0"
 authors = ["Haoyuan Liu"]
-edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+edition = "2021"
 
 [dependencies]
 image = "0.23"
-indicatif = "0.15"
+indicatif = "0.16.2"
 imageproc = "0.21"
 rusttype = "0.9"
+rand = "0.8"
 threadpool = "1.8"
 raytracer_codegen = { path = "../raytracer_codegen" }
+
